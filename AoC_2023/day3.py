@@ -1,5 +1,6 @@
 with open('entradas/day3.in') as f:
     esquemas=f.readlines()
+    
 esquemas=[esquema.strip() for esquema in esquemas]
 
 simbolos=[]
